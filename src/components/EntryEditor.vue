@@ -1,0 +1,14 @@
+<script lang="ts" setup>
+import EmojiField from "@/components/EmojiField.vue";
+import ArrowCircleRight from "@/assets/icons/arrow-circle-right.svg";
+</script>
+<template>
+  <form class="entry-form" @submit.prevent>
+    <textarea></textarea>
+    <EmojiField />
+    <div class="entry-form-footer">
+      <span>0 / 280</span>
+      <button>Remember <ArrowCircleRight width="20" /></button>
+    </div>
+  </form>
+</template>
