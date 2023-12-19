@@ -1,5 +1,5 @@
 <script lang="ts">
-import formatRelative from "date-fns/formatRelative";
+import { formatRelative } from "date-fns";
 import { defineComponent } from "vue";
 export default defineComponent({
   props: {
